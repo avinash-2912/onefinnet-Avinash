@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bimg {
+  background-image: url('https://jaaaltd.com/wp-content/uploads/sites/31/2021/03/bicycle-7.jpg');
+  /* Sets the background image */
+  height: calc(100vh - 4rem); /* Sets the height to the full viewport height minus 4rem */
+  background-repeat: repeat-x; /* Repeats the image horizontally */
+  background-position: center 10%; /* Centers the image and shifts it downward */
+  background-size: auto; /* Keeps the original size of the image */
+  position: relative;
+  zoom: 115%;
+}
+
+
+
+
+.hh {
+  height: calc(100vh - 7rem);
+}
+
+/* CSS */
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  /* border-radius: 6px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  /* font-weight: 800; */
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pos {
+  top: -8px;
+  right: -10px;
+}
+
+/* Apply styles to the enclosing div */
+.split-background {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 4rem); /* Adjust height as needed */
+  position: relative;
+  z-index: 1;
+}
+
+.split-background::before,
+.split-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: -1;
+}
+
+.split-background::before {
+  left: 0;
+  background-color: black;
+  opacity: 0.5; /* Adjust transparency */
+}
+
+.split-background::after {
+  right: 0;
+  background-color: red;
+  opacity: 0.5; /* Adjust transparency */
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "Name": "Trek Butterfly Madone",
+        "price": "$800",
+        "prev_price": "$1060",
+        "discount": "50",
+        "img": "https://dqh479dn9vg99.cloudfront.net/wp-content/uploads/sites/9/2023/09/trek-madone-bike-history-01.jpg"
+    },
+    {
+        "id": 2,
+        "Name": "Litespeed Blade ",
+        "price": "$460",
+        "prev_price": "$860",
+        "discount": "10",
+        "img": "https://www.slowtwitch.com/wp-content/uploads/2024/05/140100-largest_LitespeedTT1.jpg"
+    },
+    {
+        "id": 3,
+        "Name": "Moots Routt RSL",
+        "price": "$300",
+        "prev_price": "$660",
+        "discount": "20",
+        "img": "https://static1.squarespace.com/static/582610a5725e25d01196b93f/5826117c8eaa89ef73565974/61ae7fcfe13be97f757aed8f/1638902721280/IMG_9074.jpg?format=1500w"
+    },
+    {
+        "id": 4,
+        "Name": "Trek Yoshitomo Nara Speed ",
+        "price": "$553",
+        "prev_price": "$760",
+        "discount": "40",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_ZdW3LIA12-MQl2Rb2p7mkEvQzZwuNlusKYJGCjwJNQ7_ehUxrWW9S5DETRzR-J7AUk&usqp=CAU"
+    }
+]
